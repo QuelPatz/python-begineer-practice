@@ -5,14 +5,19 @@
 #the people. Also add an additional person and corresponding fact. Display the new list of people
 #and facts. Run the program multiple times and notice if the order changes.
 
-interesting_fact = {'Jeff': 'Is afraid of dogs.', 'David': 'Plays the piano.', 'Jason':'Can fly an airplane.', 'Jill': 'Don\'t like mango.'}
+facts = {
+  'Jeff': 'Is afraid of dogs.',
+  'David': 'Plays the piano.',
+  'Jason':'Can fly an airplane.',
+  'Jill': 'Don\'t like mango.
+}
 
-jeff_interesting_fact = interesting_fact['Jeff']
-david_interesting_fact = interesting_fact['David']
-jason_interesting_fact = interesting_fact['Jason']
-jill_interesting_fact = interesting_fact['Jill']
+jeff_facts = facts['Jeff']
+david_facts = facts['David']
+jason_facts = facts['Jason']
+jill_facts = facts['Jill']
 
-print('Jeff: {}'.format(jeff_interesting_fact))
-print('David: {}'.format(david_interesting_fact))
-print('Jason: {}'.format(jason_interesting_fact))
-print('Jill: {}'.format(jill_interesting_fact))
+print('Jeff: {}'.format(jeff_facts))
+print('David: {}'.format(david_facts))
+print('Jason: {}'.format(jason_facts))
+print('Jill: {}'.format(jill_facts))
